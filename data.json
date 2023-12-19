@@ -11,6 +11,15 @@
     ]
   },
 
+  "workExperience": [
+    {
+      "id": 0,
+      "name": "",
+      "position": "",
+      "period": ["", ""]
+    }
+  ],
+
   "project": [
     {
       "id": 0,
@@ -47,9 +56,9 @@
   "education": [
     {
       "id": 0,
-      "name": "전북대학교 컴퓨터공학부",
-      "period": ["2024. 02 졸업예정"],
-      "description": "전공학점 : 4.07"
+      "name": "원티드 프리온보딩 8월 IOS Challange",
+      "period": ["2023. 08", "2023. 08"],
+      "description": "원티드에서 백곰님과 함께 한달간 IOS 공식문서 읽으면서 Swift 언어에 대해 학습했습니다."
     },
     {
       "id": 1,
@@ -59,36 +68,46 @@
     },
     {
       "id": 2,
-      "name": "원티드 프리온보딩 8월 IOS Challange",
-      "period": ["2023. 08", "2023. 08"],
-      "description": "원티드에서 백곰님과 함께 한달간 IOS 공식문서 읽으면서 Swift 언어에 대해 학습했습니다."
+      "name": "전북대학교 컴퓨터공학부",
+      "period": ["2024. 02 졸업예정"],
+      "description": "전공학점 : 4.07"
     }
   ],
 
   "certificate": [
     {
       "id": 0,
-      "name": "정보처리기사",
-      "date": "2023. 06. 09",
-      "organizer": "한국산업인력공단"
+      "name": "JLPT N3",
+      "date": "2019. 09. 26",
+      "organizer": "일본국제교류기금"
     },
     {
       "id": 1,
-      "name": "TOPCIT",
-      "date": "2023. 05. 20",
-      "organizer": "정보통신기획평가원"
-    },
-    {
-      "id": 2,
       "name": "TOEIC 845점",
       "date": "2023. 02. 26",
       "organizer": "ETS"
     },
     {
+      "id": 2,
+      "name": "TOPCIT",
+      "date": "2023. 05. 20",
+      "organizer": "정보통신기획평가원"
+    },
+    {
       "id": 3,
-      "name": "JLPT N3",
-      "date": "2019. 09. 26",
-      "organizer": "일본국제교류기금"
+      "name": "정보처리기사",
+      "date": "2023. 06. 09",
+      "organizer": "한국산업인력공단"
+    }
+  ],
+
+  "award": [
+    {
+      "id": 0,
+      "name": "",
+      "date": "",
+      "organizer": "",
+      "description": ""
     }
   ]
 
