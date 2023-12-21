@@ -9,11 +9,11 @@ import type { AppProps } from "next/app";
 const DEFAULT_SEO = {
   title: "김규형 | Wep/App Dev",
   description: "안녕하세요, 개발자 김규형입니다.",
-  canonical: "https://www.naver.com/",
+  canonical: "https://unggu.vercel.app",
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://www.naver.com/",
+    url: "https://unggu.vercel.app",
     title: "김규형",
     site_name: "김규형 | 포트폴리오",
     images: [
