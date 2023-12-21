@@ -2,6 +2,13 @@
 - 웹 / 앱 개발에 관심이 있고 제가 만든 코드가 더 많은 사람들에게 도움이 되길 희망합니다.
 - CS 공부를 하면서 프로그램을 하면서 **나무가 아닌 숲**을 보는 개발자 되기를 희망합니다.
 
+## 개인정보 
+- **생년 월일** : 1999. 10. 01
+- **전화 번호** : 010-6276-5961
+- **Email** : kyuhung1001@gmail.com
+- **거주지** : 전라북도 전주시
+- **희망 근무지** : 지역무관
+
 ## Technology stack
 ---
 | ![Java](https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white) | ![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | ![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white) | ![Apache Tomcat](https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black) |
