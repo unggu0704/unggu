@@ -105,10 +105,31 @@
   "award": [
     {
       "id": 0,
-      "name": "",
+      "name": "CS 지식 공부",
       "date": "",
       "organizer": "",
-      "description": ""
+      "description": "CS 공부에 대해서 주기적으로 복습을 진행하며 공부한 것을 잊어버리지 않게 기록합니다. \n https://github.com/UNGGU0704/computer-science-study"
+    },
+    {
+      "id": 1,
+      "name": "네트워크 보안 공부",
+      "date": "",
+      "organizer": "",
+      "description": "웹 / 앱 개발에 있어 보안은 필수적이라 생각해 꾸준히 보안 관련 분야에 대해 학습 및 직접 실습을 진행해보고 있습니다. \n https://github.com/UNGGU0704/network-security-study"
+    },
+    {
+      "id": 2,
+      "name": "알고리즘 공부",
+      "date": "",
+      "organizer": "백준 Gold 2",
+      "description": "신입 개발자 채용을 위한 코딩테스트 대비 알고리즘을 공부한 것을 기록했습니다. \n https://github.com/UNGGU0704/algorithm-study"
+    },
+    {
+      "id": 3,
+      "name": "NHN 스터디",
+      "date": "",
+      "organizer": "",
+      "description": "신입 개발자 채용을 위한 코딩테스트 대비 알고리즘을 공부한 것을 기록했습니다. \n https://github.com/UNGGU0704/nhn-groupstudy"
     }
   ]
 

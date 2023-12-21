@@ -34,6 +34,7 @@ export interface AwardProps {
   date: string;
   organizer: string;
   description: string;
+  markdown?: string;
 }
 
 export interface DataProps {
