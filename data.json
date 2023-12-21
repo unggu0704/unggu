@@ -11,14 +11,7 @@
     ]
   },
 
-  "workExperience": [
-    {
-      "id": 0,
-      "name": "",
-      "position": "",
-      "period": ["", ""]
-    }
-  ],
+  
 
   "project": [
     {
@@ -65,7 +58,7 @@
       "id": 1,
       "name": "NHN 아카데미 백엔드 4기",
       "period": ["2023. 08", "2023. 12"],
-      "description": "NHN 아카데미 백엔드 4기에서 Web Application 개발을 위한 Java와 데이터베이스 Web FrameWork 등을 공부했습니다. \n 자세한 공부 내역은 아래 GitHub에서 확인 할 수 있습니다. \n https://github.com/UNGGU0704/nhnacademy-study"
+      "description": "NHN 아카데미 백엔드 4기에서 Web Application 개발을 위한 Java와 데이터베이스 Web FrameWork 등을 공부했습니다. \n 자세한 공부 내역은 아래 GitHub에서 확인 할 수 있습니다. \n [ㅇ](https://github.com/UNGGU0704/nhnacademy-study)"
     },
     {
       "id": 2,
@@ -102,35 +95,22 @@
     }
   ],
 
-  "award": [
+  "workExperience": [
     {
-      "id": 0,
-      "name": "CS 지식 공부",
-      "date": "",
-      "organizer": "",
-      "description": "CS 공부에 대해서 주기적으로 복습을 진행하며 공부한 것을 잊어버리지 않게 기록합니다. \n https://github.com/UNGGU0704/computer-science-study"
+      "id": 0
     },
     {
-      "id": 1,
-      "name": "네트워크 보안 공부",
-      "date": "",
-      "organizer": "",
-      "description": "웹 / 앱 개발에 있어 보안은 필수적이라 생각해 꾸준히 보안 관련 분야에 대해 학습 및 직접 실습을 진행해보고 있습니다. \n https://github.com/UNGGU0704/network-security-study"
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "알고리즘 공부",
-      "date": "",
-      "organizer": "백준 Gold 2",
-      "description": "신입 개발자 채용을 위한 코딩테스트 대비 알고리즘을 공부한 것을 기록했습니다. \n https://github.com/UNGGU0704/algorithm-study"
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "NHN 스터디",
-      "date": "",
-      "organizer": "",
-      "description": "신입 개발자 채용을 위한 코딩테스트 대비 알고리즘을 공부한 것을 기록했습니다. \n https://github.com/UNGGU0704/nhn-groupstudy"
+      "id": 3
+    },
+    {
+      "id": 4
     }
   ]
-
+  
 }
