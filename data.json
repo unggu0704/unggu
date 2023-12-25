@@ -29,7 +29,7 @@
       "name": "쇼핑몰 웹사이트 구현",
       "description": "servlet-jsp 기반 Web Application을 MVC 패턴을 적용해 구현하며 학습했습니다.",
       "webUrl": "",
-      "repoUrl": "https://github.com/UNGGU0704/nhnacademy-study/tree/main/Assignment/java-servlet-jsp-shoppingmall",
+      "repoUrl": "https://github.com/UNGGU0704/nhnacademy-study/blob/main/project/java-servlet-jsp-shoppingmall/README.md",
       "isTeam": false,
       "period": ["2023. 12", "2023. 12"],
       "stack": ["JSP", "Serlet", "MySQL", "JavaScript", "HTML/CSS"]
