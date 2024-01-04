@@ -16,6 +16,16 @@
   "project": [
     {
       "id": 0,
+      "name": "자바 기반 디스코드 봇 산식이",
+      "description": "Java Discord API 기반 간단한 디스코드 봇입니다.",
+      "webUrl": "https://apps.apple.com/kr/app/나주시-버스/id6459411077",
+      "repoUrl": "https://github.com/UNGGU0704/java_discord_bot",
+      "isTeam": false,
+      "period": ["2022. 07", "2022. 08"],
+      "stack": ["Java", "JPA", "Gradle", "Discord"]
+    },
+    {
+      "id": 1,
       "name": "boj-extended 추가 기능 제작",
       "description": "기존의 오픈소스인 boj-extended의 문제당 타이머 기능, 랜덤 디펜스 등의 기능을 추가합니다.",
       "webUrl": "https://chrome.google.com/webstore/detail/boj-extended/mfcaadoifdifdnigjmfbekjbhehibfel",
@@ -25,7 +35,7 @@
       "stack": ["JavaScript", "HTML/CSS"]
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "쇼핑몰 웹사이트 구현",
       "description": "servlet-jsp 기반 Web Application을 MVC 패턴을 적용해 구현하며 학습했습니다.",
       "webUrl": "",
@@ -35,7 +45,7 @@
       "stack": ["JSP", "Serlet", "MySQL", "JavaScript", "HTML/CSS"]
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "나주시 버스 어플 개발",
       "description": "나주시 정류장 버스 도착 정보 제공 및 버스의 현재 위치 제공",
       "webUrl": "https://apps.apple.com/kr/app/나주시-버스/id6459411077",
@@ -72,9 +82,15 @@
     },
     {
       "id": 2,
+      "name": "삼성 청년 SW 아카데미 11기",
+      "period": ["2024. 01", "진행중"],
+      "description": "삼성 청년 SW 아카데미(SSAFY) 11기 Java반에서 공부하고 있습니다."
+    },
+    {
+      "id": 3,
       "name": "전북대학교 컴퓨터공학부 컴퓨터공학 전공",
       "period": ["2024. 02 졸업예정"],
-      "description": "전체학점 : 3.95 | 전공학점 : 4.07"
+      "description": "전체학점 : 3.98 | 전공학점 : 4.07"
     }
   ],
 
