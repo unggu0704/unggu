@@ -16,7 +16,7 @@
   "project": [
     {
       "id": 0,
-      "name": "자바 기반 디스코드 봇 산식이",
+      "name": "디스코드 봇 산식이",
       "description": "Java Discord API 기반 간단한 디스코드 봇입니다.",
       "webUrl": "https://apps.apple.com/kr/app/나주시-버스/id6459411077",
       "repoUrl": "https://github.com/UNGGU0704/java_discord_bot",
