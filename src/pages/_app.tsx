@@ -7,7 +7,7 @@ import type { AppProps } from "next/app";
  * @description SEO를 위해 본인의 정보로 수정해주세요.
  */
 const DEFAULT_SEO = {
-  title: "김규형 | Wep/App Dev",
+  title: "김규형 | Web/Mobile Dev",
   description: "안녕하세요, 개발자 김규형입니다.",
   canonical: "https://unggu.vercel.app",
   openGraph: {
