@@ -18,27 +18,27 @@ module.exports = {
         /**
          * @description selection(드래그 블록)에 사용되는 컬러입니다.
          */
-        PRIMARY_LIGHT: "#51EDDD",
+        PRIMARY_LIGHT: "#60EBE2",
 
         /**
          * @description 자기소개의 이름 부분, code tag의 darkmode에 사용되는 컬러입니다.
          */
-        PRIMARY: "#51EDA8",
+        PRIMARY: "#609BEB",
 
         /**
          * @description code tag, link hover icon에 사용되는 컬러입니다.
          */
-        PRIMARY_HEAVY: "#51CAED",
+        PRIMARY_HEAVY: "#60C7EB",
 
         /**
          * @description 페이지 최상단 gradient의 시작 컬러입니다.
          */
-        GRADIENT_FROM: "#51ED73",
+        GRADIENT_FROM: "#03F091",
 
         /**
          * @description 페이지 최상단 gradient의 종료 컬러입니다.
          */
-        GRADIENT_TO: "#71AEF5",
+        GRADIENT_TO: "#606FEB",
       },
     },
   },
