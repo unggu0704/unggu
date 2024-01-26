@@ -8,7 +8,6 @@ import { useEffect } from "react";
 
 import * as gtag from "../lib/gtag";
 
-
 const DEFAULT_SEO = {
   title: "김규형 | Web/Mobile Dev",
   description: "안녕하세요, 개발자 김규형입니다.",
@@ -21,7 +20,7 @@ const DEFAULT_SEO = {
     site_name: "김규형 | 포트폴리오",
     images: [
       {
-        url: "/share.png",
+        url: "/share.jpg",
         width: 285,
         height: 167,
         alt: "김규형 이미지 alt",
