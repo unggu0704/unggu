@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import * as gtag from "../lib/gtag";
 
 const DEFAULT_SEO = {
-  title: "김규형 | Web/Mobile Dev",
+  title: "김규형 | Dev",
   description: "안녕하세요, 개발자 김규형입니다.",
   canonical: "https://unggu.vercel.app",
   openGraph: {
