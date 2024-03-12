@@ -8,12 +8,8 @@
 ## Technology stack
 ---
 
-<div style="display: flex; justify-content: center; align = center" 
 
 | ![Java](https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white) | ![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | ![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white) | ![Apache Tomcat](https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black) |
 | --- | --- | --- | --- |
-| ![Swift](https://img.shields.io/badge/swift-FA7343?style=for-the-badge&logo=swift&logoColor=white) | ![SwiftUI](https://img.shields.io/badge/SwiftUI-007396?style=for-the-badge&logo=swift&logoColor=white) | ![Core Data](https://img.shields.io/badge/Core_Data-4479A1?style=for-the-badge&logo=core-data&logoColor=white) | ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
-| ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) | ![MediaPipe](https://img.shields.io/badge/MediaPipe-00A1AB?style=for-the-badge&logo=mediapipe&logoColor=white) | ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) |
+| ![Swift](https://img.shields.io/badge/swift-FA7343?style=for-the-badge&logo=swift&logoColor=white) | ![SwiftUI](https://img.shields.io/badge/SwiftUI-007396?style=for-the-badge&logo=swift&logoColor=white) | ![Core Data](https://img.shields.io/badge/Core_Data-4479A1?style=for-the-badge&logo=core-data&logoColor=white) |
 | ![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white) | ![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white) |
-
-</div>
