@@ -18,8 +18,8 @@
       "id": 0,
       "name": "디스코드 봇 識",
       "description": "Java Discord API 기반 간단한 디스코드 봇입니다.",
-      "webUrl": "https://apps.apple.com/kr/app/나주시-버스/id6459411077",
-      "repoUrl": "https://github.com/UNGGU0704/java_discord_bot",
+      "webUrl": "",
+      "repoUrl": "https://github.com/unggu0704/discord-bot-knowledge.git",
       "isTeam": false,
       "period": ["2022. 07", "2022. 08"],
       "stack": ["Java", "JPA", "JACKSON", "Discord"]
