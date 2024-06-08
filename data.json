@@ -36,6 +36,16 @@
     },
     {
       "id": 2,
+      "name": "여행지니",
+      "description": "SpringBoot/Vue.js를 사용한 사진기반 여행 정보 제공 웹 사이트입니다",
+      "webUrl": "",
+      "repoUrl": "https://github.com/JourneyJinni",
+      "isTeam": true,
+      "period": ["2024. 05", "2024. 06"],
+      "stack": ["Java", "SpringBoot", "Vue.js", "MySQL", "MyBatis", "Node.js", "OpenCV"]
+    },
+    {
+      "id": 3,
       "name": "쇼핑몰 웹사이트 구현",
       "description": "servlet-jsp 기반 Web Application을 MVC 패턴을 적용해 구현하며 학습했습니다.",
       "webUrl": "",
@@ -45,7 +55,7 @@
       "stack": ["Java", "JSP/Servlet", "MySQL", "Tomcat", "HTML/CSS/JS"]
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "나주시 버스 어플 개발",
       "description": "나주시 정류장 버스 도착 정보 제공 및 버스의 현재 위치 제공",
       "webUrl": "https://apps.apple.com/kr/app/나주시-버스/id6459411077",
