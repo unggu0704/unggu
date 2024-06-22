@@ -93,8 +93,8 @@
     {
       "id": 2,
       "name": "삼성 청년 SW 아카데미 11기",
-      "period": ["2024. 01", "진행중"],
-      "description": "삼성 청년 SW 아카데미(SSAFY) 11기 Java반에서 공부하고 있습니다."
+      "period": ["2024. 01", "2024. 06"],
+      "description": "삼성 청년 SW 아카데미(SSAFY)에서 웹 프레임워크(Spring, Vue.js)를 공부했습니다."
     },
     {
       "id": 3,
