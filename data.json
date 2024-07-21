@@ -71,7 +71,7 @@
       "webUrl": "https://apps.apple.com/kr/app/나주시-버스/id6459411077",
       "repoUrl": "https://github.com/UNGGU0704/naju-busInfo",
       "isTeam": false,
-      "period": ["2023. 06", "2023. 08"],
+      "period": ["2023. 06", "유지 보수중"],
       "stack": ["Swift", "SwiftUI", "JSON", "Coredata", "App Store"]
     }
    
