@@ -58,9 +58,12 @@ export const getStaticProps = async () => {
 
   const workExperienceWithData = objectData.workExperience.map(
     async (item: WorkExperienceProps) => {
-      return getMd({ section: "workExperience", item });
-    },
-  );
+      return getImgSrc({
+               section: "workExperience",
+               item: await getMd({ section: "workExperience", item }),
+      });
+    }
+  )
 
   const projectWithData = objectData.project.map(async (item: ProjectProps) => {
     return getImgSrc({ section: "project", item: await getMd({ section: "project", item }) });
