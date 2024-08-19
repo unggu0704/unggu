@@ -10,7 +10,7 @@ import * as gtag from "../lib/gtag";
 
 const DEFAULT_SEO = {
   title: "김규형 | Dev",
-  description: "안녕하세요, 개발자 김규형입니다.",
+  description: "김규형 | 안녕하세요, 개발자 김규형입니다.",
   canonical: "https://unggu.vercel.app",
   openGraph: {
     type: "website",
@@ -40,11 +40,15 @@ const DEFAULT_SEO = {
     },
     {
       name: "msapplication-tooltip",
-      content: "UNGGU | Web/Mobile Dev",
+      content: "김규형 | UNGGU | Web/Mobile Dev",
     },
     {
-      name: "viewport",
-      content: "width=device-width, initial-scale=1",
+      name: "author",
+      content: "김규형",
+    },
+    {
+      name: "keywords",
+      content: "김규형, 개발자, 웹 개발, 모바일 개발, 포트폴리오",
     },
   ],
 };
