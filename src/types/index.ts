@@ -7,10 +7,10 @@ export interface InformationProps {
 
 export interface WorkExperienceProps {
   id: number;
-  name?: string;
+  name: string;
   description?: string;
-  position?: string;
-  period?: string[];
+  position: string;
+  period: string[];
   markdown?: string;
   imgSrc?: string;
 }

@@ -7,9 +7,19 @@
     "name": "김규형",
     "contact": [
       { "id": 0, "name": "Email", "href": "kyuhung1001@gmail.com", "isEmail": true },
-      { "id": 1, "name": "Github", "href": "https://github.com/UNGGU0704" }
+      { "id": 1, "name": "Github", "href": "https://github.com/UNGGU0704" },
+      { "id": 2, "name": "LinkedIn", "href": "https://www.linkedin.com/in/규형-김-5b5b10299/" }
     ]
   },
+
+  "workExperience": [
+    {
+      "id": 0,
+      "name": "kt ds",
+      "position": "M1",
+      "period": ["2024. 07", "재직 중"]
+    }
+  ],
 
   
 
@@ -61,7 +71,7 @@
       "webUrl": "https://apps.apple.com/kr/app/나주시-버스/id6459411077",
       "repoUrl": "https://github.com/UNGGU0704/naju-busInfo",
       "isTeam": false,
-      "period": ["2023. 06", "2023. 08"],
+      "period": ["2023. 06", "유지 보수중"],
       "stack": ["Swift", "SwiftUI", "JSON", "Coredata", "App Store"]
     }
    
@@ -134,27 +144,6 @@
       "name": "SQLD",
       "date": "2024. 06. 21",
       "organizer": "한국데이터산업진흥원"
-    }
-  ],
-
-  "workExperience": [
-    {
-      "id": 0
-    },
-    {
-      "id": 1
-    },
-    {
-      "id": 2
-    },
-    {
-      "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
     }
   ]
   

@@ -19,11 +19,11 @@ import { DataProps, InformationProps, ProjectProps, WorkExperienceProps } from "
 const Home: NextPage<DataProps> = ({
   resumeTitle,
   information,
+  workExperience,
   project,
   activity,
   education,
-  certificate,
-  workExperience
+  certificate
   // award,
 }) => {
   return (
@@ -32,11 +32,11 @@ const Home: NextPage<DataProps> = ({
       <ResumeTitle resumeTitle={resumeTitle} />
       <Layout>
         <Information information={information} />
+        <WorkExperience workExperience={workExperience} />
         <Project project={project} />
         <Activity activity={activity} />
         <Education education={education} />
         <Certificate certificate={certificate} />
-        <WorkExperience workExperience={workExperience} />
         {/* <Award award={award} /> */}
       </Layout>
       <Footer contact={information.contact} name={information.name} />
@@ -58,9 +58,12 @@ export const getStaticProps = async () => {
 
   const workExperienceWithData = objectData.workExperience.map(
     async (item: WorkExperienceProps) => {
-      return getMd({ section: "workExperience", item });
-    },
-  );
+      return getImgSrc({
+               section: "workExperience",
+               item: await getMd({ section: "workExperience", item }),
+      });
+    }
+  )
 
   const projectWithData = objectData.project.map(async (item: ProjectProps) => {
     return getImgSrc({ section: "project", item: await getMd({ section: "project", item }) });
