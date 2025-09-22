@@ -32,7 +32,7 @@
       "repoUrl": "https://github.com/unggu0704/discord-bot-knowledge.git",
       "isTeam": false,
       "period": ["2022. 07", "2022. 08"],
-      "stack": ["Java", "JPA", "JACKSON", "Discord"]
+      "stack": ["Java", "JACKSON", "Discord"]
     },
     {
       "id": 1,
@@ -52,17 +52,17 @@
       "repoUrl": "https://github.com/JourneyJinni",
       "isTeam": true,
       "period": ["2024. 05", "2024. 06"],
-      "stack": ["Java", "SpringBoot", "Vue.js", "MySQL", "MyBatis", "Node.js", "OpenCV"]
+      "stack": ["Java", "SpringBoot", "Vue.js", "MySQL", "MyBatis", "Node.js", "OpenCV", "Docker"]
     },
     {
       "id": 3,
-      "name": "쇼핑몰 웹사이트 구현",
-      "description": "servlet-jsp 기반 Web Application을 MVC 패턴을 적용해 구현하며 학습했습니다.",
+      "name": "하이소피",
+      "description": "하이소피 리뷰 피드백 시스템은 소상공인을 위한 AI 기반 고객 피드백 관리 솔루션입니다. 다양한 플랫폼의 리뷰를 자동 수집·분석하고, AI가 생성한 맞춤형 실행계획을 통해 매장 운영 개선을 지원합니다.",
       "webUrl": "",
-      "repoUrl": "https://github.com/unggu0704/java-servlet-jsp-shoppingmall",
-      "isTeam": false,
-      "period": ["2023. 12", "2023. 12"],
-      "stack": ["Java", "JSP/Servlet", "MySQL", "Tomcat", "HTML/CSS/JS"]
+      "repoUrl": "https://github.com/ktds-garage-04",
+      "isTeam": true,
+      "period": ["2025. 6", "2025. 7"],
+      "stack": ["MSA", "Java", "React", "PostgreSQL", "Docker", "k8s", "Azure"]
     },
     {
       "id": 4,
@@ -90,24 +90,18 @@
   "education": [
     {
       "id": 0,
-      "name": "원티드 프리온보딩 8월 iOS Challange",
-      "period": ["2023. 08", "2023. 09"],
-      "description": "원티드에서 야곰님과 함께 Swift 공식 문서를 기반으로 Swift와 SwiftUI에 대해 학습했습니다."
-    },
-    {
-      "id": 1,
       "name": "NHN 아카데미 백엔드 4기",
       "period": ["2023. 08", "2023. 12"],
       "description": "NHN 아카데미 백엔드 4기에서 좋은 SW을 설계하는 법과 Web Application을 위한 Java와 데이터베이스, Web FrameWork 등을 공부했습니다."
     },
     {
-      "id": 2,
+      "id": 1,
       "name": "삼성 청년 SW 아카데미 11기",
       "period": ["2024. 01", "2024. 06"],
       "description": "삼성 청년 SW 아카데미(SSAFY)에서 웹 프레임워크(Spring, Vue.js)를 공부했습니다."
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "전북대학교 컴퓨터공학부",
       "period": ["2024. 02 졸업"],
       "description": "컴퓨터공학 전공"
@@ -150,6 +144,18 @@
       "name": "Microsoft Azure Fundamentals (AZ-900)",
       "date": "2024. 11. 04",
       "organizer": "Microsoft"
+    },
+    {
+      "id": 6,
+      "name": "Microsoft Azure Developer Associate (AZ-204)",
+      "date": "2025. 02. 07",
+      "organizer": "Microsoft"
+    },
+    {
+      "id": 7,
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "date": "2025. 08. 18",
+      "organizer": "The Linux Foundation"
     }
   ]
   
