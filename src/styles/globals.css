@@ -38,9 +38,9 @@
 
   /* 마크다운 뱃지 이미지 스타일링 - 크기 증가 */
   .markdown img {
-    @apply inline-block my-1 mr-2 rounded-sm;
-    /* 뱃지 높이를 28px로 증가 (기존 20px → 28px) */
-    max-height: 28px;
+    @apply inline-block my-2 mr-3 rounded-sm;
+    /* 뱃지 높이를 36px로 증가 (28px → 36px) */
+    max-height: 36px;
     /* 호버 효과 */
     transition: transform 0.2s ease;
   }
@@ -52,8 +52,8 @@
 
   /* 뱃지들이 여러 개 연속으로 나올 때를 위한 스타일 */
   .markdown p img:not(:last-child) {
-    @apply mr-2;
-    /* 뱃지 사이 간격을 늘림 */
+    @apply mr-3;
+    /* 뱃지 사이 간격을 더 늘림 */
   }
 
   /* 뱃지를 포함한 문단의 라인 높이 조정 */
