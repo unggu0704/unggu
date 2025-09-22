@@ -36,31 +36,30 @@
     @apply pt-4 pb-2;
   }
 
-  /* 마크다운 뱃지 이미지 스타일링 */
+  /* 마크다운 뱃지 이미지 스타일링 - 크기 증가 */
   .markdown img {
     @apply inline-block my-1 mr-2 rounded-sm;
-    /* 뱃지가 텍스트와 같은 라인에 보이도록 inline-block 사용 */
-    /* 작은 여백과 둥근 모서리로 더 깔끔하게 */
-    max-height: 20px;
-    /* 뱃지 높이를 적절하게 제한 */
+    /* 뱃지 높이를 28px로 증가 (기존 20px → 28px) */
+    max-height: 28px;
+    /* 호버 효과 */
+    transition: transform 0.2s ease;
+  }
+
+  /* 뱃지 호버 효과 */
+  .markdown img:hover {
+    @apply transform scale-105;
   }
 
   /* 뱃지들이 여러 개 연속으로 나올 때를 위한 스타일 */
   .markdown p img:not(:last-child) {
-    @apply mr-1;
-    /* 뱃지 사이 간격 조정 */
+    @apply mr-2;
+    /* 뱃지 사이 간격을 늘림 */
   }
 
   /* 뱃지를 포함한 문단의 라인 높이 조정 */
   .markdown p:has(img) {
     @apply leading-relaxed;
     /* 뱃지가 포함된 문단의 줄 간격을 늘려서 읽기 편하게 */
-  }
-
-  /* 호버 효과 추가 (선택사항) */
-  .markdown img:hover {
-    @apply transform scale-105 transition-transform duration-200;
-    /* 마우스 오버 시 살짝 커지는 효과 */
   }
 
   strong {
