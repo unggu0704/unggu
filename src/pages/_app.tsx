@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import { ThemeProvider } from "next-themes";
-import { DefaultSeo } from "next-seo";
+import { DefaultSeo, ArticleJsonLd } from "next-seo";
 import type { AppProps } from "next/app";
 import { useRouter } from "next/router";
 import Script from "next/script";
@@ -32,6 +32,13 @@ const DEFAULT_SEO = {
       rel: "icon",
       href: "/favicon.ico",
     },
+    {
+      rel: "preload",
+      href: "/fonts/custom-font.woff2",
+      as: "font",
+      type: "font/woff2",
+      crossorigin: "anonymous",
+    },
   ],
   additionalMetaTags: [
     {
@@ -49,6 +56,14 @@ const DEFAULT_SEO = {
     {
       name: "keywords",
       content: "김규형, 개발자, 웹 개발, 모바일 개발, 포트폴리오",
+    },
+    {
+      name: "robots",
+      content: "index, follow",
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1",
     },
   ],
 };
@@ -73,7 +88,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Script
-        strategy="afterInteractive"
+        strategy="beforeInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
       />
       <Script
@@ -92,6 +107,18 @@ const App = ({ Component, pageProps }: AppProps) => {
       />
 
       <DefaultSeo {...DEFAULT_SEO} />
+      
+      <ArticleJsonLd
+        type="BlogPosting"
+        url="https://unggu.vercel.app"
+        title="김규형 | Dev"
+        images={[
+          "https://unggu.vercel.app/share.jpg",
+        ]}
+        authorName="김규형"
+        publisherName="김규형"
+        description="김규형 | 안녕하세요, 개발자 김규형입니다." datePublished={""}      />
+
       <ThemeProvider attribute="class">
         <Component {...pageProps} />
       </ThemeProvider>

@@ -1,6 +1,6 @@
 {
   "resumeTitle": {
-    "title": "Kim Kyu Hyeong"
+    "title": "김규형 | Kim Kyu Hyeong"
   },
 
   "information": {
@@ -144,6 +144,12 @@
       "name": "SQLD",
       "date": "2024. 06. 21",
       "organizer": "한국데이터산업진흥원"
+    },
+    {
+      "id": 5,
+      "name": "Microsoft Azure Fundamentals (AZ-900)",
+      "date": "2024. 11. 04",
+      "organizer": "Microsoft"
     }
   ]
   
