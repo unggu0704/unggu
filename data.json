@@ -16,6 +16,7 @@
     {
       "id": 0,
       "name": "kt ds",
+      "description": "기존의 오픈소스인 boj-extended의 문제당 타이머 기능, 랜덤 디펜스 등의 기능을 추가합니다.",
       "position": "M1",
       "period": ["2024. 07", "재직 중"]
     }
