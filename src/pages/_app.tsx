@@ -9,21 +9,21 @@ import { useEffect } from "react";
 import * as gtag from "../lib/gtag";
 
 const DEFAULT_SEO = {
-  title: "김규형 | Dev",
-  description: "김규형 | 안녕하세요, 개발자 김규형입니다.",
+  title: "엉구 | Dev",
+  description: "엉구 | 안녕하세요, 개발자 엉구입니다.",
   canonical: "https://unggu.vercel.app",
   openGraph: {
     type: "website",
     locale: "ko_KR",
     url: "https://unggu.vercel.app",
-    title: "김규형",
-    site_name: "김규형 | 포트폴리오",
+    title: "엉구",
+    site_name: "엉구 | 포트폴리오",
     images: [
       {
         url: "/share.jpg",
         width: 285,
         height: 167,
-        alt: "김규형 이미지 alt",
+        alt: "엉구 이미지 alt",
       },
     ],
   },
@@ -43,19 +43,19 @@ const DEFAULT_SEO = {
   additionalMetaTags: [
     {
       name: "application-name",
-      content: "김규형 | Web/Mobile Dev",
+      content: "엉구 | Web/Mobile Dev",
     },
     {
       name: "msapplication-tooltip",
-      content: "김규형 | UNGGU | Web/Mobile Dev",
+      content: "엉구 | UNGGU | Web/Mobile Dev",
     },
     {
       name: "author",
-      content: "김규형",
+      content: "엉구",
     },
     {
       name: "keywords",
-      content: "김규형, 개발자, 웹 개발, 모바일 개발, 포트폴리오",
+      content: "엉구, 개발자, 웹 개발, 모바일 개발, 포트폴리오",
     },
     {
       name: "robots",
@@ -111,13 +111,13 @@ const App = ({ Component, pageProps }: AppProps) => {
       <ArticleJsonLd
         type="BlogPosting"
         url="https://unggu.vercel.app"
-        title="김규형 | Dev"
+        title="엉구 | Dev"
         images={[
           "https://unggu.vercel.app/share.jpg",
         ]}
-        authorName="김규형"
-        publisherName="김규형"
-        description="김규형 | 안녕하세요, 개발자 김규형입니다." datePublished={""}      />
+        authorName="엉구"
+        publisherName="엉구"
+        description="엉구 | 안녕하세요, 개발자 엉구입니다." datePublished={""}      />
 
       <ThemeProvider attribute="class">
         <Component {...pageProps} />
